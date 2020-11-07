@@ -1,0 +1,268 @@
+#head {
+    margin-top: 0px;
+    background-color: #ff1a1a;
+    height: 56px;
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    z-index: 1;
+}
+
+#logo {
+    margin-top: 4px;
+    margin-left: 5px;
+    float: left;
+}
+
+#logo img {
+    transition: 0.5s;
+}
+
+#logo img:hover {
+    transition: 0.5s;
+    margin-left: -10px;
+    width: 65px;
+    height: 45px;
+}
+
+#logoName {
+    float: left;
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+a#logoName {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover#logoName {
+    color: grey;
+    text-shadow: 0 0 2px dimgrey;
+}
+
+.search {
+    float: left;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+
+.search input[type=text] {
+    float: left;
+    width: 300px;
+}
+
+.search button {
+    background-color: red;
+    border-color: white;
+}
+
+#login {
+    float: right;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#login p {
+    margin-top: -5px;
+}
+
+#login a:hover {
+    text-decoration-line: none;
+}
+
+.sidebar {
+    position: fixed;
+    padding: 0;
+    width: 200px;
+    background-color: #ff1a1a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.sidebar a {
+    display: block;
+    padding: 16px;
+    font-size: 20px;
+    text-decoration: black;
+    color: white;
+}
+
+.sidebar a.active {
+    background-color: white;
+    color: black;
+}
+
+.sidebar a:hover {
+    color: black;
+}
+
+#navbar {
+    font-size: 20px;
+    background-color: #ff1a1a;
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.dropbtn {
+    display: block;
+    background-color: #ff1a1a;
+    border: none;
+}
+
+.dropdown {
+    margin-left: 40px;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content {
+    margin-top: 15px;
+    display: none;
+    background-color: #ff1a1a;
+    outline: none;
+    position: fixed;
+}
+
+.dropdown-content a {
+    overflow: hidden;
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+}
+
+#navbar a:hover,
+.dropdown:hover .dropbtn {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    margin-left: 200px;
+}
+
+#shop1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 56px;
+    border: 3px solid white;
+}
+
+#items {
+    text-align: center;
+}
+
+.buy {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.cart {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.buy:hover {
+    border-radius: 0%;
+    background-color: black;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+.cart:hover {
+    transition: 0.5s;
+    border-radius: 0%;
+    background-color: red;
+    border: none;
+    outline: none;
+}
+
+.item-img {
+    width: 300px;
+    height: 250px;
+    background-color: red;
+}
+
+.item-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-2 {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.item-3 {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.sticky1 {
+    position: fixed;
+    top: 40px;
+    left: 200px;
+    width: 86.79%;
+    text-align: center;
+}
+
+.margin {
+    margin-top: 56px;
+}
